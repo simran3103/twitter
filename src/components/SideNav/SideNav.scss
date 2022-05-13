@@ -1,0 +1,18 @@
+$pcolor: white;
+
+@mixin brdr {
+    border: 2px solid red
+}
+
+.t-sidenav {
+    display: flex
+}
+
+.bird {
+    margin: 5rem;
+}
+
+.side-data {
+    // @include brdr;
+    margin-top: 7rem
+}
