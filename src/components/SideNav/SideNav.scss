@@ -13,6 +13,6 @@ $pcolor: white;
 }
 
 .side-data {
-    // @include brdr;
+    @include brdr;
     margin-top: 7rem
 }

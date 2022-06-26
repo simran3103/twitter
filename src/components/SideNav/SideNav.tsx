@@ -11,11 +11,11 @@ const SideNav = () => {
     }, [])
 
     return (
-        <div className='t-sidenav'>
-            <div className='bird'><img src={bird} alt='bird' style={{ width: '5rem' }} /></div>
+        <div className='t-sidenav' style={{ border: '1px solid white' }}>
+            <div className='bird' style={{ border: '1px solid white' }}><img src={bird} alt='bird' style={{ width: '5rem' }} /></div>
             <div className='side-data'>
                 {
-                    data.map((dt) => <h3>{dt}</h3>)
+                    data.map((dt) => <div><h3>{dt}</h3></div>)
                 }
             </div>
         </div>)
