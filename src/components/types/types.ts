@@ -3,6 +3,5 @@ export type CardsType = {
     data: Array<string>
 }[]
 
-export type SideNavData = {
-    name: Array<string>
-}
+export type SideNavType = Array<string>
+
