@@ -1,0 +1,28 @@
+@mixin brdr {
+    border: 1px solid grey;
+}
+
+.main {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 100vh;
+
+    .mside,
+    .mhome,
+    .mcards {
+        @include brdr
+    }
+
+    .mside {
+        width: 20%;
+    }
+
+    .mhome {
+        width: 55%
+    }
+
+    .mcards {
+        width: 25%
+    }
+}
