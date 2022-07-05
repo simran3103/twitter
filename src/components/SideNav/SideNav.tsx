@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { SideNavData } from '../data/SideNavData';
 import SideDetails from '../SideDetails/SideDetails';
-// import bird from '../assets/bird.jpg'
+import pro from '../assets/profile.png'
 import './SideNav.scss';
 
 type SideNavType = {
@@ -25,8 +25,11 @@ const SideNav = () => {
             }
             <button>Tweet</button>
             <div className='sidebottom' >
-                <div>Mohit Negi</div>
-                <div>Mohit.negi03@gmail.com</div>
+                <div className='imgdiv'><img src={pro} style={{ width: '1rem', height: '1rem' }} /></div>
+                <span>
+                    <div style={{ fontWeight: 'bold' }}>Mohit Negi</div>
+                    <div style={{ color: 'grey', fontStyle: 'oblique' }}>@Mohit.negi03</div>
+                </span>
             </div>
         </div>
     )

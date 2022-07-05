@@ -1,20 +1,39 @@
+@mixin brdr {
+    border: 1px solid red
+}
+
 .sidenav {
     display: flex;
     flex-direction: column;
-    margin-top: 3rem;
+    margin-top: 2.5rem;
+    // @include brdr;
 
     button {
         height: 45px;
-        margin: 0 auto;
+        margin: 0.5rem 0 0 0;
         width: 12rem;
         border-radius: 3rem;
         background-color: rgb(79, 194, 194);
         color: white
     }
 
-    // .sidebottom {
-    //     margin-left: 5rem;
-    //     margin-top: 55px;
-    //     text-align: left;
-    // }
+    button:hover {
+        cursor: pointer;
+    }
+
+    .sidebottom {
+        display: flex;
+        // @include brdr;
+        margin: 3.5rem 0 0 2rem;
+        text-align: left;
+
+        .imgdiv {
+            // @include brdr;
+            margin-top: 8px;
+        }
+
+        span {
+            margin: 0 0 0 15px
+        }
+    }
 }
