@@ -23,6 +23,11 @@ const SideNav = () => {
                     < SideDetails sidedt={dt} key={idx} />
                 )) : null
             }
+            <button>Tweet</button>
+            <div className='sidebottom'>
+                <div>Mohit Negi</div>
+                <div>Mohit.negi03@gmail.com</div>
+            </div>
         </div>
     )
 }
