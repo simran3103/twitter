@@ -24,7 +24,7 @@ const SideNav = () => {
                 )) : null
             }
             <button>Tweet</button>
-            <div className='sidebottom'>
+            <div className='sidebottom' >
                 <div>Mohit Negi</div>
                 <div>Mohit.negi03@gmail.com</div>
             </div>

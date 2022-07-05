@@ -1,21 +1,17 @@
 .side-details {
-    display: flex;
-    // border: 1px solid red;
-    width: 100%;
-    height: 50px;
 
-    // align-items: center;    
-    align-content: center;
+    .bird {
+        display: flex;
+        align-items: left;
+    }
 
-    .img-div {
-        margin-left: 4rem; // border: 1px solid blue
+    .side-data {
+        display: flex;
+        margin: 0.75rem 0 0 2rem;
+        padding: 0.3rem 0 0.3rem 0
     }
 
     .side-text {
-        // border: 1px solid white;
-        padding-left: 0.75rem;
-        font-weight: bolder;
-        font-size: larger;
-        vertical-align: baseline;
+        margin: 0 0 0 0.7rem
     }
 }

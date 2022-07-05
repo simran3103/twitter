@@ -1,12 +1,8 @@
 .sidenav {
-    // width: 100%;
     display: flex;
     flex-direction: column;
-    // align-items: center;
-    margin-top: 6rem;
+    margin-top: 3rem;
 
-    // justify-content: center;
-    // border: 15px solid green
     button {
         height: 45px;
         margin: 0 auto;
@@ -16,9 +12,9 @@
         color: white
     }
 
-    .sidebottom {
-        margin-left: 5rem;
-        margin-top: 55px;
-        text-align: left;
-    }
+    // .sidebottom {
+    //     margin-left: 5rem;
+    //     margin-top: 55px;
+    //     text-align: left;
+    // }
 }
