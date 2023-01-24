@@ -1,7 +1,9 @@
-import React from 'react'
-
 const Cards = () => {
-    return <div style={{ border: '1px solid green' }}>Cards</div>
+    return (
+        <div>
+            Cards
+        </div>
+    )
 }
 
 export default Cards

@@ -1,18 +1,38 @@
-$pcolor: white;
-
 @mixin brdr {
-    border: 2px solid red
+    border: 1px solid red
 }
 
-.t-sidenav {
-    display: flex
-}
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+    // @include brdr;
 
-.bird {
-    margin: 5rem;
-}
+    button {
+        height: 45px;
+        margin: 0.5rem 0 0 0;
+        width: 12rem;
+        border-radius: 3rem;
+        background-color: rgb(79, 194, 194);
+        color: white
+    }
+    button:hover {
+        cursor: pointer;
+    }
 
-.side-data {
-    @include brdr;
-    margin-top: 7rem
+    .sidebottom {
+        display: flex;
+        // @include brdr;
+        margin: 3.5rem 0 0 2rem;
+        text-align: left;
+
+        .imgdiv {
+            // @include brdr;
+            margin-top: 8px;
+        }
+
+        span {
+            margin: 0 0 0 15px
+        }
+    }
 }
