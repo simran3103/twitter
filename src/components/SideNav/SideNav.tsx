@@ -30,6 +30,7 @@ const SideNav = () => {
                     <div style={{ fontWeight: 'bold' }}>Mohit Negi</div>
                     <div style={{ color: 'grey', fontStyle: 'oblique' }}>@Mohit.negi03</div>
                 </span>
+
             </div>
         </div>
     )
